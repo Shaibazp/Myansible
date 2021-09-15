@@ -1,6 +1,9 @@
 ---
 - hosts: all
-  become: all
+  become: yes
   tasks:
   - name: i want to ping all
     ping:
+  - name: i want to install apache
+    apt:
+      name: apache2
