@@ -1,7 +1,6 @@
 ---
 - hosts: mytomcat
   become: yes
-  tasks:
   vars:
       tomcat_ver: 9.0.52                          # Tomcat version to install
       ui_manager_user: root                    # User who can access the UI manager section only
