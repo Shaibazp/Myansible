@@ -1,5 +1,5 @@
 ---
-- hosts: my tomcat
+- hosts: mytomcat
   become: yes
   tasks:
   vars:
