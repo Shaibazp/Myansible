@@ -2,7 +2,3 @@
 172.31.21.80
 172.31.32.231
 
-[mytomcat:vars]
-key=value
-myubuntuWebPack=apache2
-myRedHadWebPack=httpd
