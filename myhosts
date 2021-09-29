@@ -4,5 +4,5 @@
 
 [mytomcat:vars]
 key=value
-myubuntuWebPack=apche2
+myubuntuWebPack=apache2
 myRedHadWebPack=httpd
