@@ -1,0 +1,9 @@
+---
+- hosts: 172.31.21.80
+  becomes: yes
+  tasks:
+  - name: create file
+    file:
+      path: /home/myproject/myfiles/aaa.txt
+      state: touch
+     
