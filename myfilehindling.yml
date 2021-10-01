@@ -10,5 +10,9 @@
   - name: start web server
     service:
      name: apache2
-     state: started   
+     state: started  
+  - name: copy node server to node
+    template:
+     src: myindexfile.j2
+     dest: /var/www/html/index.html 
 
