@@ -1,2 +1,8 @@
 ---
-# tasks file for MyWebRole
+  hosts: mytomcat
+  become: yes
+  tasks:
+  - name: install apache
+    apt:
+      name: apache2
+      state: present

@@ -1,0 +1,6 @@
+---
+- hosts: mytomcat
+  become: yes
+  tasks:
+  roles:
+   - MyWebRole
