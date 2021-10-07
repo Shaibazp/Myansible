@@ -4,3 +4,4 @@
   tasks:
   roles:
    - MyWebRole
+   - MyWebRole2

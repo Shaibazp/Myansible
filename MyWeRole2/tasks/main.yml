@@ -1,2 +1,5 @@
 ---
-# tasks file for MyWeRole2
+- name: install Tree software
+  apt:
+   name: Tree
+   state: present
