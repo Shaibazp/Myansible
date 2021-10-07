@@ -1,5 +1,5 @@
 ---
 - name: install Tree software
   apt:
-   name: Tree
+   name: tree
    state: present
