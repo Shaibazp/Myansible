@@ -3,23 +3,4 @@
   become: yes
   tasks:
   - name: i want to install apache2 server
-    apt:
-      name: apache2
-      state: present
-    when: ansible_os_family == "Debian"
-  - name: i want to start web servers
-    service:
-      name: "{{myubuntuWebPack}}"
-      state: started
-    when: ansible_os_family == "Debian"
-
-  - name: i want to install software on RedHat
-    yum:
-      name: "{{myRedHadWebPack}}"
-      state: present
-    when: ansible_os_family == "RedHat"
-  - name: i want to start web servers
-    service:
-      name: httpd
-      state: started
-    when: ansible_os_family == "RedHat"
+    ping:
