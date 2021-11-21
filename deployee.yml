@@ -4,5 +4,5 @@
   - name: i want to install apache2 server
     get_url:
       url: http://3.14.150.139:8082/artifactory/TestRepo/com/example/Login-/3.0/Login--3.0.war
-      dest: /opt/tomcat/webapps
+      dest: /opt/tomcat/webapps/Login--3.0.war  
       force_basic_auth: yes
