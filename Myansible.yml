@@ -4,3 +4,7 @@
   tasks:
   - name: i want to install apache2 server
     ping:
+  - name: i want to install apache2 server
+    apt:
+        name: openjdk-8-jre
+        state: present
